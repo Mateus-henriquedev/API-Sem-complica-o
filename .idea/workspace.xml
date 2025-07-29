@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60e4f6c8-3188-443b-a7a3-94812d6b0f6c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Transferencia/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Transferencia/Conta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/chronosacademy/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Transferencia/ContaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/plataformaFilmes/PlataformaFilmesTeste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -45,12 +37,14 @@
   "keyToString": {
     "JUnit.ContaTest.executor": "Run",
     "JUnit.ContaTest.realizarTransacao.executor": "Run",
+    "JUnit.PlataformaFilmesTeste.validarLogin.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/guilh/Downloads/AutomacaoSemComplicacaoAPI2.0",
     "onboarding.tips.debug.path": "C:/Users/guilh/Downloads/AutomacaoSemComplicacaoAPI2.0/src/main/java/br/com/chronosacademy/Main.java",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
@@ -66,7 +60,7 @@
       <recent name="Transferencia" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ContaTest">
+  <component name="RunManager" selected="JUnit.PlataformaFilmesTeste.validarLogin">
     <configuration name="ContaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AutomacaoSemComplicacaoAPI2.0" />
       <extension name="coverage">
@@ -98,8 +92,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PlataformaFilmesTeste.validarLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AutomacaoSemComplicacaoAPI2.0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="plataformaFilmes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="plataformaFilmes" />
+      <option name="MAIN_CLASS_NAME" value="plataformaFilmes.PlataformaFilmesTeste" />
+      <option name="METHOD_NAME" value="validarLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PlataformaFilmesTeste.validarLogin" />
         <item itemvalue="JUnit.ContaTest" />
         <item itemvalue="JUnit.ContaTest.realizarTransacao" />
       </list>
@@ -130,6 +141,9 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AutomacaoSemComplicacaoAPI2_0$ContaTest.ic" NAME="ContaTest Coverage Results" MODIFIED="1753728654364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>Transferencia.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/AutomacaoSemComplicacaoAPI2_0$PlataformaFilmesTeste_validarLogin.ic" NAME="PlataformaFilmesTeste.validarLogin Coverage Results" MODIFIED="1753811729105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>plataformaFilmes.*</FILTER>
     </SUITE>
   </component>
 </project>
