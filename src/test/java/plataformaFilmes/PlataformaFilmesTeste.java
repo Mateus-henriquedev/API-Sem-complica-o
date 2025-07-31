@@ -3,13 +3,22 @@ package plataformaFilmes;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
+import maps.LoginMap;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
+import utils.RestUtils;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 public class PlataformaFilmesTeste {
 
-    @Test
+    static String token;
+
+   /* @Test
     public void validarLogin() {
 
         RestAssured.baseURI = "http://guioliveira.lan:8080/";
@@ -21,21 +30,45 @@ public class PlataformaFilmesTeste {
 
         Response response = post(json, ContentType.JSON, "auth");
 
-
         assertEquals(200, response.statusCode());
         String token = response.jsonPath().get("token");
         System.out.println(token);
 
     }
+*/
+    @BeforeAll
+    public static void validarLoginMap(){
 
-    public Response post(Object json, ContentType contentType, String endpoint){
+        RestUtils.setBaseURI("http://guioliveira.lan:8080/");
+        LoginMap.initLogin();
 
-        return RestAssured.given()
-                .contentType(contentType)
-                .body(json)
-                .when()
-                .post(endpoint)
-                .thenReturn();
+        Response response = RestUtils.post(LoginMap.getLogin(), ContentType.JSON, "auth");
+
+        assertEquals(200, response.statusCode());
+        LoginMap.token = response.jsonPath().get("token");
+        System.out.println(LoginMap.token);
+
+    }
+
+    @Test
+    public void validarConsultaCategorias(){
+
+        Map<String,String> header = new HashMap<>();
+        header.put("Authorization", "Bearer "+LoginMap.token);
+
+        Response response = RestUtils.get(header, "categorias");
+        assertEquals(200, response.statusCode());
+
+       System.out.println(response.jsonPath().get().toString());
+
+        // 1 metodo de validação
+        assertEquals("Terror",response.jsonPath().get("tipo[2]" ));
+
+        // 2 metodo de validação
+        List<String> listTipo = response.jsonPath().get("tipo");
+        assertTrue(listTipo.contains("Terror"), "Não foi encontrado a categoria terror  ");
+
+
     }
 
 }

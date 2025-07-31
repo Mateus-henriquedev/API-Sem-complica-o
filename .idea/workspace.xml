@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60e4f6c8-3188-443b-a7a3-94812d6b0f6c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/plataformaFilmes/PlataformaFilmesTeste.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/plataformaFilmes/PlataformaFilmesTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/plataformaFilmes/PlataformaFilmesTeste.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,60 +33,68 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.ContaTest.executor": "Run",
-    "JUnit.ContaTest.realizarTransacao.executor": "Run",
-    "JUnit.PlataformaFilmesTeste.validarLogin.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/guilh/Downloads/AutomacaoSemComplicacaoAPI2.0",
-    "onboarding.tips.debug.path": "C:/Users/guilh/Downloads/AutomacaoSemComplicacaoAPI2.0/src/main/java/br/com/chronosacademy/Main.java",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.general"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.ContaTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContaTest.realizarTransacao.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PlataformaFilmesTeste.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PlataformaFilmesTeste.post.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PlataformaFilmesTeste.validarConsultaCategorias.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PlataformaFilmesTeste.validarLogin.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PlataformaFilmesTeste.validarLoginMap.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RunnerTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/guilh/Downloads/AutomacaoSemComplicacaoAPI2.0&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/guilh/Downloads/AutomacaoSemComplicacaoAPI2.0/src/main/java/br/com/chronosacademy/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\guilh\Downloads\AutomacaoSemComplicacaoAPI2.0\src\test\resources\features" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="Transferencia" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PlataformaFilmesTeste.validarLogin">
-    <configuration name="ContaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RunnerTest">
+    <configuration name="PlataformaFilmesTeste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AutomacaoSemComplicacaoAPI2.0" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Transferencia.*" />
+          <option name="PATTERN" value="plataformaFilmes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Transferencia" />
-      <option name="MAIN_CLASS_NAME" value="Transferencia.ContaTest" />
+      <option name="PACKAGE_NAME" value="plataformaFilmes" />
+      <option name="MAIN_CLASS_NAME" value="plataformaFilmes.PlataformaFilmesTeste" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContaTest.realizarTransacao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PlataformaFilmesTeste.validarConsultaCategorias" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AutomacaoSemComplicacaoAPI2.0" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Transferencia.*" />
+          <option name="PATTERN" value="plataformaFilmes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Transferencia" />
-      <option name="MAIN_CLASS_NAME" value="Transferencia.ContaTest" />
-      <option name="METHOD_NAME" value="realizarTransacao" />
+      <option name="PACKAGE_NAME" value="plataformaFilmes" />
+      <option name="MAIN_CLASS_NAME" value="plataformaFilmes.PlataformaFilmesTeste" />
+      <option name="METHOD_NAME" value="validarConsultaCategorias" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -108,11 +116,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PlataformaFilmesTeste.validarLoginMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AutomacaoSemComplicacaoAPI2.0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="plataformaFilmes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="plataformaFilmes" />
+      <option name="MAIN_CLASS_NAME" value="plataformaFilmes.PlataformaFilmesTeste" />
+      <option name="METHOD_NAME" value="validarLoginMap" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunnerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AutomacaoSemComplicacaoAPI2.0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runner" />
+      <option name="MAIN_CLASS_NAME" value="runner.RunnerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RunnerTest" />
+        <item itemvalue="JUnit.PlataformaFilmesTeste" />
+        <item itemvalue="JUnit.PlataformaFilmesTeste.validarConsultaCategorias" />
+        <item itemvalue="JUnit.PlataformaFilmesTeste.validarLoginMap" />
         <item itemvalue="JUnit.PlataformaFilmesTeste.validarLogin" />
-        <item itemvalue="JUnit.ContaTest" />
-        <item itemvalue="JUnit.ContaTest.realizarTransacao" />
       </list>
     </recent_temporary>
   </component>
