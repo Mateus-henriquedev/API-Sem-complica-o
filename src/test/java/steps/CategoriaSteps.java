@@ -23,6 +23,6 @@ public class CategoriaSteps {
 
     @Quando("altero o campo {string} do header de categorias com o valor {string}")
     public void alteroOCampoDoHeaderDeCategoriasComOValor(String key, String value) {
-        header.put(key, value);
+        header.put(key, "invalido");
     }
 }
