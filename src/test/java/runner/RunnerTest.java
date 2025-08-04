@@ -14,7 +14,7 @@ import utils.RestUtils;
         plugin = {"json:target/reports/CucumberReports.json", "pretty"},
         snippets = CucumberOptions.SnippetType.CAMELCASE
 )
-public class RunnerTest {
+ public class RunnerTest {
 
     @BeforeClass
     public static void beforeClass() throws Exception{

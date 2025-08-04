@@ -1,8 +1,11 @@
 package steps;
 
+import io.cucumber.java.pt.E;
 import io.cucumber.java.pt.Entao;
 import org.junit.Assert;
 import utils.RestUtils;
+
+import java.util.ArrayList;
 
 public class GenericSteps {
 
@@ -17,4 +20,8 @@ public class GenericSteps {
     }
 
 
+    @E("valido que recebo uma lista vazia")
+    public void validoQueReceboUmaListaVazia() {
+        Assert.assertEquals(new ArrayList<>(),  RestUtils.getResponse().jsonPath().get());
+    }
 }

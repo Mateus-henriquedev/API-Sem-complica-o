@@ -6,10 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="60e4f6c8-3188-443b-a7a3-94812d6b0f6c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/maps/FilmesMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/maps/FilmesMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runner/RunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/RunnerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/FilmeSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/FilmeSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/GenericSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/GenericSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/utils/RestUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/RestUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/categoria.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/categoria.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/filme.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/filme.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

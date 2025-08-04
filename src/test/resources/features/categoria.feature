@@ -25,4 +25,5 @@ Funcionalidade: Consulta Categoria
     E que tenha um payload da API de Categoria
     Quando realizo uma requisicao do tipo GET
     Entao valido que recebo status 200 no response
-    E valido que no campo "tipo[2]" possui o valor "Terror"
+    E valido que no campo "tipo[0]" possui o valor "Aventura"
+    E valido que no campo "tipo[7]" possui o valor "Thriller"

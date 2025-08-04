@@ -60,5 +60,40 @@ public class RestUtils {
                 .get(endpoint)
                 .thenReturn();
     }
+    public static Response get (Map<String, String> header,Map<String, String> param,String endpoint){
+        return response = RestAssured.given()
+                .relaxedHTTPSValidation()
+                .headers(header)
+                .params(param)
+                .log().all()
+                .when()
+                .get(endpoint)
+                .thenReturn();
+}
+    public static Response put(Map<String, String> header, Object Json, ContentType contentType, String endpoint) {
+        return response = RestAssured.given()
+                .relaxedHTTPSValidation()
+                .contentType(contentType)
+                .headers(header)
+                .body(Json)
+                .log().all()
+                .when()
+                .put(endpoint)
+                .then()
+                .log().all()
+                .extract().response();
+    }
+
+    public static Response delete (Map<String, String> header, String endpoint) {
+        return response = RestAssured.given()
+                .relaxedHTTPSValidation()
+                .headers(header)
+                .log().all()
+                .when()
+                .delete(endpoint)
+                .then()
+                .log().all()
+                .extract().response();
+    }
 
 }
