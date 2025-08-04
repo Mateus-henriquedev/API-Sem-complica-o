@@ -6,10 +6,11 @@ import java.util.List;
 import java.util.Map;
 
 public class FilmesMap {
+    public static int id;
     private static Map<String, String> header;
     private static Map<String, Object> filme;
-    private static Map<String, Object> categorias1;
-    private static Map<String, Object> categorias2;
+    private static Map<String, Object> categoria1;
+    private static Map<String, Object> categoria2;
     private static Map<String, Object> plataforma;
     private static List<Map<String, Object>> listCategoria;
     private static List<Map<String, Object>> listPlataforma;
@@ -23,11 +24,11 @@ public class FilmesMap {
     }
 
     public static Map<String, Object> getCategorias1() {
-        return categorias1;
+        return categoria1;
     }
 
     public static Map<String, Object> getCategorias2() {
-        return categorias2;
+        return categoria2;
     }
 
     public static Map<String, Object> getPlataforma() {
@@ -44,13 +45,13 @@ public class FilmesMap {
 
     public static void initCategoria (){
         listCategoria = new ArrayList<>();
-        categorias1 = new HashMap<>();
-        categorias2= new HashMap<>();
+        categoria1 = new HashMap<>();
+        categoria2= new HashMap<>();
 
-        categorias1.put("tipo", "Acao");
-        categorias2.put("tipo", "Comedia");
-        listCategoria.add(categorias1);
-        listCategoria.add(categorias2);
+        categoria1.put("tipo", "Acao");
+        categoria2.put("tipo", "Comedia");
+        listCategoria.add(categoria1);
+        listCategoria.add(categoria2);
 
     }
 
@@ -64,7 +65,7 @@ public class FilmesMap {
         listPlataforma = new ArrayList<>();
         plataforma = new HashMap<>();
 
-        plataforma.put("nome", "Netflix");
+        plataforma.put("nome", "NetFlix");
         listPlataforma.add(plataforma);
     }
 
@@ -73,8 +74,7 @@ public class FilmesMap {
 
         filme.put("nome", "Alerta vermelho");
         filme.put("descricao", "Um alerta vermelho da Interpol e emitido e o agente do FBI John Hartley assume o caso. Durante sua busca, " +
-                "ele se ve diante de um assalto ousado e e forçado a se aliar ao maior ladrao de arte da historia, " +
-                "Nolan Booth, para capturar a ladra de arte mais procurada do mundo atualmente, Sarah Black.");
+                "ele se ve diante de um assalto ousado e e forcado a se aliar ao maior ladrao de arte da historia");
         filme.put("duracao", 1.35);
         filme.put("categorias", listCategoria);
         filme.put("plataformas", listPlataforma);

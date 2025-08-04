@@ -22,15 +22,34 @@ public class RestUtils {
         return RestAssured.baseURI;
     }
 
-    public static Response post(Object json, ContentType contentType, String endpoint){
-       return response = RestAssured.given()
+    public static Response post(Object Json, ContentType contentType, String endpoint) {
+        return response = RestAssured.given()
+                .relaxedHTTPSValidation()
                 .contentType(contentType)
-                .body(json)
+                .log()
+                .all()
+                .body(Json)
                 .when()
-                .log().all()
                 .post(endpoint)
-                .thenReturn();
+                .then()
+                .log().all()
+                .extract().response();
     }
+    public static Response post(Map<String, String> header, Object Json, ContentType contentType, String endpoint) {
+        return response = RestAssured.given()
+                .relaxedHTTPSValidation()
+                .contentType(contentType)
+                .log()
+                .all()
+                .headers(header)
+                .body(Json)
+                .when()
+                .post(endpoint)
+                .then()
+                .log().all()
+                .extract().response();
+    }
+
 
     public static Response get (Map<String, String> header, String endpoint) {
         return response = RestAssured.given()

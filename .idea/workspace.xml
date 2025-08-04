@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60e4f6c8-3188-443b-a7a3-94812d6b0f6c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/maps/FilmesMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/CategoriaSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/CategoriaSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/categoria.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/categoria.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/maps/FilmesMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/maps/FilmesMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/RunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/RunnerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/RestUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/RestUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +26,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
