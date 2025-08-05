@@ -6,12 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="60e4f6c8-3188-443b-a7a3-94812d6b0f6c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/plataformaFilmes/PlataformaFilmesTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/plataformaFilmes/PlataformaFilmesTeste.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runner/RunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/RunnerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/FilmeSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/FilmeSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/GenericSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/GenericSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/utils/RestUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/RestUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/categoria.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/categoria.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/filme.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/filme.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,31 +40,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Cucumber Java.Scenario: Realizar Consulta Categoria com token invalido.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ContaTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ContaTest.realizarTransacao.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PlataformaFilmesTeste.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PlataformaFilmesTeste.post.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PlataformaFilmesTeste.validarConsultaCategorias.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PlataformaFilmesTeste.validarLogin.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PlataformaFilmesTeste.validarLoginMap.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RunnerTest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/guilh/Downloads/AutomacaoSemComplicacaoAPI2.0&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/guilh/Downloads/AutomacaoSemComplicacaoAPI2.0/src/main/java/br/com/chronosacademy/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Cucumber Java.Scenario: Realizar Consulta Categoria com token invalido.executor": "Run",
+    "JUnit.ContaTest.executor": "Run",
+    "JUnit.ContaTest.realizarTransacao.executor": "Run",
+    "JUnit.PlataformaFilmesTeste.executor": "Run",
+    "JUnit.PlataformaFilmesTeste.post.executor": "Run",
+    "JUnit.PlataformaFilmesTeste.validarConsultaCategorias.executor": "Run",
+    "JUnit.PlataformaFilmesTeste.validarLogin.executor": "Run",
+    "JUnit.PlataformaFilmesTeste.validarLoginMap.executor": "Run",
+    "JUnit.RunnerTest.executor": "Run",
+    "Maven.APISemComplicacao [install].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/guilh/Downloads/AutomacaoSemComplicacaoAPI2.0",
+    "onboarding.tips.debug.path": "C:/Users/guilh/Downloads/AutomacaoSemComplicacaoAPI2.0/src/main/java/br/com/chronosacademy/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -76,6 +76,11 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="Transferencia" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+    </option>
   </component>
   <component name="RunManager" selected="JUnit.RunnerTest">
     <configuration name="Scenario: Realizar Consulta Categoria com token invalido" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">

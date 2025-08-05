@@ -58,7 +58,9 @@ public class RestUtils {
                 .log().all()
                 .when()
                 .get(endpoint)
-                .thenReturn();
+                .then()
+                .log().all()
+                .extract().response();
     }
     public static Response get (Map<String, String> header,Map<String, String> param,String endpoint){
         return response = RestAssured.given()
@@ -68,7 +70,9 @@ public class RestUtils {
                 .log().all()
                 .when()
                 .get(endpoint)
-                .thenReturn();
+                .then()
+                .log().all()
+                .extract().response();
 }
     public static Response put(Map<String, String> header, Object Json, ContentType contentType, String endpoint) {
         return response = RestAssured.given()

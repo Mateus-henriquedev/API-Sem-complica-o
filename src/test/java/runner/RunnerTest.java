@@ -18,7 +18,7 @@ import utils.RestUtils;
 
     @BeforeClass
     public static void beforeClass() throws Exception{
-        RestUtils.setBaseURI("http://localhost:8080/");
+        RestUtils.setBaseURI("http://192.168.0.173:8080/");
     }
 
 }

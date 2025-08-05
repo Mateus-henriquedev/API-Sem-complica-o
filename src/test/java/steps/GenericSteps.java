@@ -23,5 +23,6 @@ public class GenericSteps {
     @E("valido que recebo uma lista vazia")
     public void validoQueReceboUmaListaVazia() {
         Assert.assertEquals(new ArrayList<>(),  RestUtils.getResponse().jsonPath().get());
+
     }
 }

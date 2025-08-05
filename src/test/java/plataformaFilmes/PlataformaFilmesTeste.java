@@ -58,17 +58,9 @@ public class PlataformaFilmesTeste {
 
         Response response = RestUtils.get(header, "categorias");
         assertEquals(200, response.statusCode());
-
        System.out.println(response.jsonPath().get().toString());
-
-        // 1 metodo de validação
         assertEquals("Terror",response.jsonPath().get("tipo[2]" ));
-
-        // 2 metodo de validação
         List<String> listTipo = response.jsonPath().get("tipo");
-        assertTrue(listTipo.contains("Terror"), "Não foi encontrado a categoria terror  ");
-
-
+        assertTrue(listTipo.contains("Terror"), "Nao foi encontrado a categoria terror  ");
     }
-
 }
